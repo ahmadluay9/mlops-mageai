@@ -1,0 +1,12 @@
+train_set:
+  object_type: pipeline
+  object_uuid: sklearn_training
+  project: unit_2_training
+  repo_path: /workspaces/mlops-mageai/mlops/unit_2_training
+training_set:
+  object_type: pipeline
+  object_uuid: sklearn_training
+  outdated_after:
+    seconds: 600
+  project: unit_2_training
+  repo_path: /workspaces/mlops-mageai/mlops/unit_2_training
